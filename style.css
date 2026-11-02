@@ -1,0 +1,60 @@
+/* 
+   File: style.css
+   Student: Desarai Lofton
+   Course: CSD 430
+   Purpose: Styling for the travel JSP page
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+.description {
+    text-align: center;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.record-info {
+    margin-top: 25px;
+    font-size: 18px;
+}
